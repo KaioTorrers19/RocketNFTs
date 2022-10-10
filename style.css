@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.home{
+    padding: 2rem;
+    width: 100vw;
+    background-image: url("assets/background.png");
+}
+
+
+header{ 
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content:space-around;
+}
+
+header ul{
+
+    font-weight:light;
+    display:flex;
+    align-items:center;
+    color: white;
+    gap: 3rem
+}
+
+header ul li{
+font-size: 0.8rem;
+list-style:none;
+}
+
+
+
+.btn, button{
+padding: 10px;
+font-weight: bold;
+display:flex;
+align-items:center;
+width: 14.375em;
+ height: 3.125em;
+ color:#000000;
+
+}
+
+header{
+    color:#FFFFFF;
+}
+
+
+header span{
+    font-size: 3rem;
+}
+
+header span span{
+    color:#FF5B50;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    border-radius: 3px;
+    color :black;
+    background-color: #ffffff;
+    padding: 0.5rem;
+}
+
+
+.container{
+    font-size: 15px;
+    font-weight: regular; 
+    margin-top: 10rem;
+}
+.container p{
+    color: #ffffff;
+}
+
+.container-artist{
+    flex-direction: row;
+    margin-top: 5rem;
+    background-color: red;
+}
+
+.container-artist img{
+    padding-left: 40px;
+    position:absolute;
+}
+
+.container-artist img:nth-child(1){
+   z-index: 6;
+
+
+}
+
+.container-artist img:nth-child(2){
+    z-index: 5;
+    margin-left: 30px ;
+
+
+}
+
+.container-artist img:nth-child(3){
+    z-index: 4;
+    margin-left:50px ;
+
+
+}
+
+.container-artist img:nth-child(4){
+    z-index: 3;
+    margin-left: 70px ;
+
+
+}
+.container-artist img:nth-child(5){
+    z-index: 2;
+    margin-left: 90px ;
+
+
+}
+.container-artist img:nth-child(6){
+    z-index: 1;
+    margin-left:110px ;
+
+
+}
